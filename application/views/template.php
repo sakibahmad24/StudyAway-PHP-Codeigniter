@@ -37,5 +37,5 @@
 
         <div id="wrapper">
         <?php $this->load->view("nav"); ?>
-        <!-- <?php $this->load->view($view); ?> -->
+        <?php $this->load->view($view); ?>
         <?php $this->load->view("footer"); ?>
