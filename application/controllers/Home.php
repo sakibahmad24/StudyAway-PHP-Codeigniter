@@ -21,6 +21,37 @@ class Home extends CI_Controller {
         $this->load->view('template_signup', $data);
 
     }
+
+    public function save_registration()
+    {
+        if (isset($_POST['submit'])){
+
+            $firstName = $this->input->post('firstname');
+            $lastname = $this->input->post('lastname');
+            $email = $this->input->post('email');
+            $password = $this->input->post('password');
+
+
+            $data = array(
+                'firstname'=> $firstName,
+                'lastname' => $lastname,
+                'email' => $email,
+                'password' => $password,
+
+            );
+
+            $res = $this->common->save_registration($data);
+
+            if ($res['msg'] == "" ){
+                $this->session->set_flashdata('conf', '<span class="success"> Signing Up Successfull, </span>');
+                redirect(site_url());
+            }
+            else{
+                $this->session->set_flashdata('conf', '<span class="danger"> Signing Up failed</span>');
+                redirect(Home/signup);
+            }
+        }
+    }
 }
 
 
