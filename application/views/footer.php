@@ -29,8 +29,8 @@
 				<div class="col-lg-3 col-md-6">
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
-						<li><a href="tel://61280932400"><i class="ti-mobile"></i> + 880 167 645 1865</a></li>
-						<li><a href="mailto:info@udema.com"><i class="ti-email"></i> info@studyaway.com</a></li>
+						<li><a href="tel://+8801676451865"><i class="ti-mobile"></i> + 880 167 645 1865</a></li>
+						<li><a href="mailto:info@studyaway.com"><i class="ti-email"></i> info@studyaway.com</a></li>
 					</ul>
 					<div id="newsletter">
 					<h6>Newsletter</h6>
@@ -62,13 +62,13 @@
 	</div>
 	<!-- page -->
 	<!-- COMMON SCRIPTS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src=<?php echo base_url("js/jquery-2.2.4.min.js") ?>></script>
+    <script src=<?php echo base_url("js/common_scripts.js") ?>></script>
+    <script src=<?php echo base_url("js/main.js") ?>></script>
+	<script src=<?php echo base_url("assets/validate.js") ?>></script>
 	
 	<!-- SPECIFIC SCRIPTS -->
-	<script src="js/video_header.js"></script>
+	<script src=<?php echo base_url("js/video_header.js") ?>></script>
 	<script>
 		HeaderVideo.init({
 			container: $('.header-video'),

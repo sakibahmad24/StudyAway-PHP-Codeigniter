@@ -15,6 +15,12 @@ class Home extends CI_Controller {
 		$this->load->view('template',$data);
 	}
 
+	public function signup()
+    {
+        $data['view'] = "signup_view";
+        $this->load->view('template_signup', $data);
+
+    }
 }
 
 

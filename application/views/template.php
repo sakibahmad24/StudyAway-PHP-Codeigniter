@@ -19,15 +19,15 @@
     <!-- BASE CSS -->
 
     <link href=<?php echo base_url("css/bootstrap.min.css")?> rel="stylesheet">
-    <link href="css/style.css" rel=" stylesheet">
-    <link href="css/vendors.css" rel="stylesheet">
-    <link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+    <link href=<?php echo base_url("css/style.css")?> rel=" stylesheet">
+    <link href=<?php echo base_url("css/vendors.css")?>  rel="stylesheet">
+    <link href=<?php echo base_url("css/icon_fonts/css/all_icons.min.css")?>  rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href=<?php echo base_url("css/custom.css")?> rel="stylesheet">
     
     <!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
+    <script src=<?php echo base_url("js/modernizr.js")?>></script>
 
 </head>
 

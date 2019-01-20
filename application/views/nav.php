@@ -6,7 +6,7 @@
 		<ul id="top_menu">
 			<li><a href="login.html" class="login">Login</a></li>
 			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
-			<li class="hidden_tablet"><a href="register.html" class="btn_1 rounded">Sign Up!</a></li>
+			<li class="hidden_tablet"><a href="<?php echo site_url("Home/signup") ?>" class="btn_1 rounded">Sign Up!</a></li>
 		</ul>
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
@@ -20,10 +20,10 @@
 			<ul>
 				<li><span><a href="#">Home</a></span></li>
 				<li><span><a href="#">Study Abroad</a></span></li>
-				<li><span><a href="#0">University Profile</a></span></li>
-				<li><span><a href="#0">About</a></span>
+				<li><span><a href="#">University Profile</a></span></li>
+				<li><span><a href="#">About</a></span>
 				</li>
-				<li><span><a href="#0">FAQ</a></span></li>
+				<li><span><a href="#">FAQ</a></span></li>
 			</ul>
 		</nav>
 		<!-- Search Menu -->
