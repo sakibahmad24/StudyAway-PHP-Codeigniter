@@ -52,6 +52,12 @@ class Home extends CI_Controller {
             }
         }
     }
+
+    public function countries(){
+        $data['view'] = "countries_view";
+        $this->load->view('template', $data);
+    }
+
 }
 
 

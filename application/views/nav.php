@@ -18,12 +18,12 @@
 		</a>
 		<nav id="menu" class="main-menu">
 			<ul>
-				<li><span><a href="#">Home</a></span></li>
-				<li><span><a href="#">Study Abroad</a></span></li>
-				<li><span><a href="#">University Profile</a></span></li>
-				<li><span><a href="#">About</a></span>
+				<li><span><a href="<?php echo site_url() ?>">Home</a></span></li>
+				<li><span><a href="<?php echo site_url("Home/countries") ?>">Countries</a></span></li>
+				<li><span><a href="#">Universities</a></span></li>
+				<li><span><a href="#">Guide</a></span>
 				</li>
-				<li><span><a href="#">FAQ</a></span></li>
+				<li><span><a href="#">VISA</a></span></li>
 			</ul>
 		</nav>
 		<!-- Search Menu -->
