@@ -7,10 +7,10 @@
                     <div class="kilimanjaro_part">
                         <h5>Average Living Cost...</h5>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+                            <li><a href="<?php echo base_url('Home/usaLivingCost') ?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php echo site_url('Countries/canadaLivingCost') ?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php echo site_url('Countries/ausLivingCost')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php echo site_url('Countries/ukLivingCost')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
