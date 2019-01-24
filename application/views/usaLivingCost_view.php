@@ -70,7 +70,7 @@
             <hr>
 
             <!-- Preview Image -->
-            <img class="card-img-top" src="https://images.shiksha.ws/mediadata/images/articles/iStock_000003381885_Large1.jpg" alt="Card image cap">
+            <img class="card-img-top" style="width: 50%; height: 20%" src="https://images.shiksha.ws/mediadata/images/articles/iStock_000003381885_Large1.jpg" alt="Card image cap">
 
             <hr>
 
@@ -97,8 +97,80 @@
 
             <p>This table will give you an approximate monthly average expense idea:</p>
 
-            <table>
+            <table class="table table-striped" style="width: 50%">
+                <thead>
+                    <th scope="col">Item</th>
+                    <th scope="col">Monthly Cost</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Accommodation</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>Electricity</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Groceries (home cooked meals)</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>International Calling cards</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Home Internet</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Cell phone</td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td>Restaurant meals</td>
+                        <td>$75</td>
+                    </tr>
+                    <tr>
+                        <td>Entertainment</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Car Insurance</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Petrol for car </td>
+                        <td>$75</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Weekend activities</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Shopping</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$1000</strong</td>
+                    </tr>
 
+                </tbody>
             </table>
-
+            <p><em>Note: These amounts will differ from state to state within the US</em></p>
+            <h6>Additional Cost</h6>
+            <p>Students should be able to meet the following costs when they are studying in the US. Costs may increase by about 5to7% per year due to inflation and external factors.</p>
+            <ul>
+                <li>Travel expenses between India and US during vacation time</li>
+                <li>Large purchases, such as PC, furniture, or even a rental car etc.</li>
+                <li>Medical expenses not covered by health insurance, e.g. dental care, eye care, cosmetic treatments</li>
+                <li>Additional summer expenses - room and board, grocery costs for the summer months you stay on in the US when classes are not being held</li>
+                <li>Additional expenses such as off-campus transportation</li>
+                <li>Entertainment, social outings, weekend trips</li>
+            </ul>
             <hr>
