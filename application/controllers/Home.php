@@ -64,6 +64,13 @@ class Home extends CI_Controller {
         $this->load->view('template', $data);
     }
 
+    public function canadaLivingCost()
+    {
+        $data['view'] = "canadaLivingCost_view";
+        $this->load->view('template', $data);
+    }
+
+
 }
 
 
