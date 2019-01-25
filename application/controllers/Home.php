@@ -82,6 +82,30 @@ class Home extends CI_Controller {
         $this->load->view('template', $data);
     }
 
+    public function usaPtJob()
+    {
+        $data['view'] = "usaPtJob_view";
+        $this->load->view('template', $data);
+    }
+
+    public function canadaPtJob()
+    {
+        $data['view'] = "canadaPtJob_view";
+        $this->load->view('template', $data);
+    }
+
+    public function ausPtJob()
+    {
+        $data['view'] = "ausPtJob_view";
+        $this->load->view('template', $data);
+    }
+
+    public function ukPtJob()
+    {
+        $data['view'] = "ukPtJob_view";
+        $this->load->view('template', $data);
+    }
+
 }
 
 

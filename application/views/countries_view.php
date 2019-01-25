@@ -17,10 +17,10 @@
                     <div class="kilimanjaro_part m-top-15">
                         <h5>Part Time Work Opportunities...</h5>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+                            <li><a href="<?php echo base_url('Home/usaPtJob') ?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php echo base_url('Home/canadaPtJob') ?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php echo base_url('Home/ausPtJob') ?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php echo base_url('Home/ukPtJob') ?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
