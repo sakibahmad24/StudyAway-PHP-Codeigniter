@@ -106,6 +106,15 @@ class Home extends CI_Controller {
         $this->load->view('template', $data);
     }
 
+
+//    universities view here
+
+    public function universities()
+    {
+	    $data['view'] = "universities_view";
+	    $this->load->view('template', $data);
+    }
+
 }
 
 
