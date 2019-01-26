@@ -29,10 +29,10 @@
                     <div class="kilimanjaro_part">
                         <h5>After Study Jobs...</h5>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+                            <li><a href="<?php echo base_url('Home/usaPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php echo base_url('Home/canadaPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php echo base_url('Home/ausPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php echo base_url('Home/ukPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
@@ -40,10 +40,10 @@
                     <div class="kilimanjaro_part m-top-15">
                         <h5>VISA GUIDE...</h5>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+                            <li><a href="<?php echo base_url('Home/usaVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php echo base_url('Home/canadaVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php echo base_url('Home/ausVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php echo base_url('Home/ukVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
@@ -52,10 +52,10 @@
                     <div class="kilimanjaro_part">
                         <h5>Beginers' GUIDE...</h5>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+                            <li><a href="<?php echo base_url('Home/usaBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php echo base_url('Home/canadaBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php echo base_url('Home/ausBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php echo base_url('Home/ukBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
@@ -63,10 +63,10 @@
                     <div class="kilimanjaro_part m-top-15">
                         <h5>Popular Job Sectors...</h5>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+                            <li><a href="<?php echo base_url('Home/usaPopJob')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php echo base_url('Home/canadaPopJob')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php echo base_url('Home/ausPopJob')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php echo base_url('Home/ukPopJob')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
