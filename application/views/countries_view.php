@@ -3,7 +3,7 @@
     <div class="foo_top_header_one section_padding_100_70">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-6">
                     <div class="kilimanjaro_part">
                         <h5>Average Living Cost...</h5>
                         <ul class="kilimanjaro_links">
@@ -25,7 +25,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-6">
                     <div class="kilimanjaro_part">
                         <h5>After Study Jobs...</h5>
                         <ul class="kilimanjaro_links">
@@ -33,29 +33,6 @@
                             <li><a href="<?php echo base_url('Home/canadaPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
                             <li><a href="<?php echo base_url('Home/ausPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
                             <li><a href="<?php echo base_url('Home/ukPostStudy')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
-
-                        </ul>
-                    </div>
-
-                    <div class="kilimanjaro_part m-top-15">
-                        <h5>VISA GUIDE...</h5>
-                        <ul class="kilimanjaro_links">
-                            <li><a href="<?php echo base_url('Home/usaVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="<?php echo base_url('Home/canadaVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="<?php echo base_url('Home/ausVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="<?php echo base_url('Home/ukVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="kilimanjaro_part">
-                        <h5>Beginers' GUIDE...</h5>
-                        <ul class="kilimanjaro_links">
-                            <li><a href="<?php echo base_url('Home/usaBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
-                            <li><a href="<?php echo base_url('Home/canadaBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
-                            <li><a href="<?php echo base_url('Home/ausBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
-                            <li><a href="<?php echo base_url('Home/ukBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
 
                         </ul>
                     </div>
@@ -70,7 +47,31 @@
 
                         </ul>
                     </div>
+                    <!-- <div class="kilimanjaro_part m-top-15">
+                        <h5>VISA GUIDE...</h5>
+                        <ul class="kilimanjaro_links">
+                            <li><a href="<?php //echo base_url('Home/usaVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php //echo base_url('Home/canadaVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php //echo base_url('Home/ausVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php //echo base_url('Home/ukVisa')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+
+                        </ul>
+                    </div> -->
                 </div>
+                <!-- <div class="col-12 col-md-6 col-lg-3">
+                    <div class="kilimanjaro_part">
+                        <h5>Beginers' GUIDE...</h5>
+                        <ul class="kilimanjaro_links">
+                            <li><a href="<?php //echo base_url('Home/usaBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in USA</a></li>
+                            <li><a href="<?php //echo base_url('Home/canadaBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in CANADA</a></li>
+                            <li><a href="<?php //echo base_url('Home/ausBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in AUSTRALIA</a></li>
+                            <li><a href="<?php //echo base_url('Home/ukBeginners')?>"><i class="fa fa-angle-right" aria-hidden="true"></i>in UK</a></li>
+
+                        </ul>
+                    </div>
+
+                    
+                </div> -->
 <!--                <div class="col-12 col-md-6 col-lg-3">-->
 <!--                    <div class="kilimanjaro_part">-->
 <!--                        <h5>Quick Contact</h5>-->

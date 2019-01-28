@@ -106,6 +106,52 @@ class Home extends CI_Controller {
         $this->load->view('template', $data);
     }
 
+    public function usaPostStudy()
+    {
+        $data['view'] = "usaPostStudy_view";
+        $this->load->view('template', $data);
+    }
+
+    public function canadaPostStudy()
+    {
+        $data['view'] = "canadaPostStudy_view";
+        $this->load->view('template', $data);
+    }
+
+    public function ausPostStudy()
+    {
+        $data['view'] = "ausPostStudy_view";
+        $this->load->view('template', $data);
+    }
+
+
+    public function ukPostStudy()
+    {
+        $data['view'] = "ukPostStudy_view";
+        $this->load->view('template', $data);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //    universities view here
 
