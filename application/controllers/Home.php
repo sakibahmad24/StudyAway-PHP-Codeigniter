@@ -157,8 +157,15 @@ class Home extends CI_Controller {
 
     public function universities()
     {
+
 	    $data['view'] = "universities_view";
 	    $this->load->view('template', $data);
+    }
+
+    public function programs()
+    {
+        $data['view'] = "programs_view";
+        $this->load->view('template', $data);
     }
 
 }
