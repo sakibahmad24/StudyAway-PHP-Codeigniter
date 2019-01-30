@@ -158,6 +158,18 @@ class Home extends CI_Controller {
     public function universities()
     {
 
+        $usa_uni = $this->common->getUSUnivs();
+        $data['usaUnivs'] = $usa_uni;
+
+        $canada_uni = $this->common->getCanadaUnivs();
+        $data['canadaUnivs'] = $canada_uni;
+
+        $aus_uni = $this->common->getAusUnivs();
+        $data['ausUnivs'] = $aus_uni;
+
+        $uk_uni = $this->common->getUkUnivs();
+        $data['ukUnivs'] = $uk_uni;
+
 	    $data['view'] = "universities_view";
 	    $this->load->view('template', $data);
     }
