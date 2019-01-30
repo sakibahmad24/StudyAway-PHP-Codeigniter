@@ -16,6 +16,14 @@
                 }
 
             }
+
+            public function getAllPrograms(){
+
+                $sql = "SELECT DISTINCT p_name FROM programs";
+                $result = $this->db->query($sql)->result();
+
+                return $result;
+            }
 		
 	}
 ?>

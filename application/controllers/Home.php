@@ -164,6 +164,9 @@ class Home extends CI_Controller {
 
     public function programs()
     {
+        $result = $this->common->getAllPrograms();
+
+        $data['programs'] = $result;
         $data['view'] = "programs_view";
         $this->load->view('template', $data);
     }
