@@ -63,7 +63,15 @@
                 return $q->result();       
             }
         
-        
+            public function find_prog($name)
+            {
+                $q = $this->db
+                            ->From('programs')
+                            ->Where('p_name',$name)
+                            ->get();
+
+                return $q->result();       
+            }
 		
 	}
 ?>

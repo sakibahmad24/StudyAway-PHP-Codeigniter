@@ -5,10 +5,12 @@
             <div class="row">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="kilimanjaro_part">
-                        <h5>Universities in USA</h5>
+                        <h5>All Programs</h5>
                         <ul class="kilimanjaro_links">
                             <?php foreach($programs as $program){ ?>
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"><?php echo $program->p_name; ?></i></a></li>
+                            <li>
+                                <?= anchor("home/receive_prog/{$program->p_name}",$program->p_name,['class'=>'fa fa-angle-right']); /*using anchor method to pass program name*/?>
+                            </li>
                             <?php } ?>
                         </ul>
                     </div>

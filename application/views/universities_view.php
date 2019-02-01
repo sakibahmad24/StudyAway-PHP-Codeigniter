@@ -11,7 +11,7 @@
                         <?php foreach($usaUnivs as $usaUniv){ ?>
                         <ul class="kilimanjaro_links">
                             <li>
-                                <?= anchor("university/rece/{$usaUniv->university}",$usaUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                                <?= anchor("university/rece/{$usaUniv->university}",$usaUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to pass uni name*/?>
                             </li>
                         <?php } ?>
                         </ul>
@@ -23,7 +23,7 @@
                         <?php foreach($canadaUnivs as $canadaUniv){ ?>
                         <ul class="kilimanjaro_links">
                             <li>
-                                <?= anchor("university/rece/{$canadaUniv->university}",$canadaUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                                <?= anchor("university/rece/{$canadaUniv->university}",$canadaUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to pass uni name*/?>
                             </li>
                         <?php } ?>                            
                         </ul>
@@ -38,7 +38,7 @@
                         <?php foreach($ausUnivs as $ausUniv){ ?>
                         <ul class="kilimanjaro_links">
                             <li>
-                                <?= anchor("university/rece/{$ausUniv->university}",$ausUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                                <?= anchor("university/rece/{$ausUniv->university}",$ausUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to pass uni name*/?>
                             </li>
                         <?php } ?>                            
                         </ul>
@@ -50,7 +50,7 @@
                         <?php foreach($ukUnivs as $ukUniv){ ?>
                         <ul class="kilimanjaro_links">
                             <li>
-                                <?= anchor("university/rece/{$ukUniv->university}",$ukUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                                <?= anchor("university/rece/{$ukUniv->university}",$ukUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to pass uni name*/?>
                             </li>
                         <?php } ?>                            
                         </ul>

@@ -183,6 +183,16 @@ class Home extends CI_Controller {
         $this->load->view('template', $data);
     }
 
+    public function receive_prog($prog_name)
+    {
+        $prog_name = str_replace("%20"," ",$prog_name);
+        //echo $name;
+        $prog_details = $this->common->find_prog($prog_name);
+        $data['article'] = $prog_details;
+        $data['view'] = "programs_details";
+        $this->load->view('template',$data);
+    }
+
 }
 
 
