@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.2
+-- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 30, 2019 at 09:52 AM
--- Server version: 10.1.34-MariaDB
--- PHP Version: 5.6.37
+-- Generation Time: Feb 01, 2019 at 11:01 PM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 5.6.38
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -47,21 +47,21 @@ CREATE TABLE `programs` (
 --
 
 INSERT INTO `programs` (`pid`, `region`, `place`, `university`, `p_name`, `first_year_fee`, `eligibility`, `uni_type`, `scholarship`, `accomodation`, `link`) VALUES
-(1, 'Canada', 'Toronto', 'University of Toronto', 'MSc Computer Science', '25 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93', 'Public', 'No', 'Yes', 'https://future.utoronto.ca/apply'),
-(2, 'Canada', 'Vancouver', 'The University of British Columbia', 'Master of Science in Computer Science', '15 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 100\r\n\r\nPTE: 65', 'Public', 'No', 'Yes', 'https://account.you.ubc.ca/s/apply-ubc'),
-(3, 'Canada', 'Montreal', 'McGill University', 'Master of Science in Computer Science', '14.8 Lakhs', 'GRE: Accepted\r\n\r\nIELTS: 6.5\r\n\r\nTOEFL: 100', 'Public', 'Yes', 'Yes', 'https://www.mcgill.ca/applying/apply'),
-(4, 'USA', 'Cambridge', 'Harvard University', 'Masters in Computer Science', '52 Lakhs', 'GRE: Accepted\r\n\r\nTOEFL: 80', 'Private', 'Yes', 'Yes', 'https://college.harvard.edu/admissions/apply'),
-(5, 'UK', 'Oxford', 'University of Oxford', 'MSc in Computer Science', '32 Lakhs', 'IELTS: 7.5', 'Public', 'Yes', 'Yes', 'http://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford'),
-(6, 'Canada', 'St. John\'s', 'Memorial University of Newfoundland', 'Master of Science in Computer Science', '13 Lakhs', 'GRE: Accepted\r\n\r\nIELTS is accepted but exact exam score is not published by the college IELTS: Accepted\r\n\r\nTOEFL: 80', 'Public', 'Yes', 'Yes', 'https://www.mun.ca/become/graduate/apply/'),
-(7, 'Canada', 'Victoria', 'University of Victoria', 'MSc in Computer Science', '11 Lakhs', 'GRE: Accepted\r\n\r\nIELTS: 6.5\r\n\r\nTOEFL: 90', 'Public', 'Yes', 'Yes', 'https://uvic.ca/application'),
-(8, 'Canada', 'Regina', 'University of Regina', 'MSc in Computer Science', '11.5 Lakhs', 'IELTS: 6.5\r\n\r\nTOEFL: 80\r\n\r\nPTE: 59', 'Public', 'Yes', 'Yes', 'https://www.uregina.ca/apply-now/'),
-(9, 'Canada', 'Calgary', 'University of Calgary', 'Master of Science in Computer Science', '15.5 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 97\r\n\r\nPTE: 68', 'Public', 'Yes', 'Yes', 'https://www.ucalgary.ca/future-students/graduate/apply'),
-(10, 'Canada', 'Toronto', 'Ryerson University', 'Master of Science Computer Science', '16 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93\r\n\r\nPTE: 63', 'Public', 'Yes', 'Yes', 'https://www.ryerson.ca/graduate/future-students/apply/online/'),
-(11, 'Canada', 'London', 'Western University', 'M.Eng. Software Engineering', '23 Lakh', 'IELTS: 6.5\r\n\r\nTOEFL: 83\r\n\r\nPTE: 58', 'Public', 'No', 'Yes', 'https://grad.uwo.ca/admissions/apply.html'),
-(12, 'Canada', 'Prince George', 'University of Northern British Columbia', 'Master of Computer Science', '12.5 Lakhs', 'IELTS: 6.5\r\n\r\nTOEFL: 88\r\n\r\nPTE: 65', 'Public', 'No', 'Yes', 'https://www.unbc.ca/apply'),
-(13, 'USA', 'Richardson', 'The University of Texas at Dallas', 'Master of Science in Computer Science', '35 Lakhs', 'GRE: Accepted\r\n\r\nIELTS: 6.5\r\n\r\nTOEFL: 80\r\n\r\nPTE: 67', 'Public', 'Yes', 'Yes', 'https://www.utdallas.edu/enroll/apply-now/'),
-(14, 'Canada', 'Burnaby', 'Simon Fraser University', 'Master of Science in Computing Science', '17 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93', 'Public', 'No', 'Yes', 'https://www.sfu.ca/students/admission/apply.html'),
-(15, 'USA', 'Old Westbury', 'New York Institute of Technology', 'Computer Science, M.S.', '28 Lakhs', 'IELTS: 6\r\n\r\nTOEFL: 79\r\n\r\nPTE: 53', 'Private', 'No', 'Yes', 'https://www.nyit.edu/admissions/apply'),
+(1, 'Canada', 'Toronto', 'University of Toronto', 'MS in Computer Science & Engineering', '25 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93', 'Public', 'No', 'Yes', 'https://future.utoronto.ca/apply'),
+(2, 'Canada', 'Vancouver', 'The University of British Columbia', 'MS in Computer Science & Engineering', '15 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 100\r\n\r\nPTE: 65', 'Public', 'No', 'Yes', 'https://account.you.ubc.ca/s/apply-ubc'),
+(3, 'Canada', 'Montreal', 'McGill University', 'MS in Computer Science & Engineering', '14.8 Lakhs', 'GRE: Accepted\r\n\r\nIELTS: 6.5\r\n\r\nTOEFL: 100', 'Public', 'Yes', 'Yes', 'https://www.mcgill.ca/applying/apply'),
+(4, 'USA', 'Cambridge', 'Harvard University', 'MS in Computer Science & Engineering', '52 Lakhs', 'GRE: Accepted\r\n\r\nTOEFL: 80', 'Private', 'Yes', 'Yes', 'https://college.harvard.edu/admissions/apply'),
+(5, 'UK', 'Oxford', 'University of Oxford', 'MS in Computer Science & Engineering', '32 Lakhs', 'IELTS: 7.5', 'Public', 'Yes', 'Yes', 'http://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford'),
+(6, 'Canada', 'St. John\'s', 'Memorial University of Newfoundland', 'MS in Computer Science & Engineering', '13 Lakhs', 'GRE: Accepted\r\n\r\nIELTS is accepted but exact exam score is not published by the college IELTS: Accepted\r\n\r\nTOEFL: 80', 'Public', 'Yes', 'Yes', 'https://www.mun.ca/become/graduate/apply/'),
+(7, 'Canada', 'Victoria', 'University of Victoria', 'MS in Computer Science & Engineering', '11 Lakhs', 'GRE: Accepted\r\n\r\nIELTS: 6.5\r\n\r\nTOEFL: 90', 'Public', 'Yes', 'Yes', 'https://uvic.ca/application'),
+(8, 'Canada', 'Regina', 'University of Regina', 'MS in Computer Science & Engineering', '11.5 Lakhs', 'IELTS: 6.5\r\n\r\nTOEFL: 80\r\n\r\nPTE: 59', 'Public', 'Yes', 'Yes', 'https://www.uregina.ca/apply-now/'),
+(9, 'Canada', 'Calgary', 'University of Calgary', 'MS in Computer Science & Engineering', '15.5 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 97\r\n\r\nPTE: 68', 'Public', 'Yes', 'Yes', 'https://www.ucalgary.ca/future-students/graduate/apply'),
+(10, 'Canada', 'Toronto', 'Ryerson University', 'MS in Computer Science & Engineering', '16 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93\r\n\r\nPTE: 63', 'Public', 'Yes', 'Yes', 'https://www.ryerson.ca/graduate/future-students/apply/online/'),
+(11, 'Canada', 'London', 'Western University', 'MS in Computer Science & Engineering', '23 Lakh', 'IELTS: 6.5\r\n\r\nTOEFL: 83\r\n\r\nPTE: 58', 'Public', 'No', 'Yes', 'https://grad.uwo.ca/admissions/apply.html'),
+(12, 'Canada', 'Prince George', 'University of Northern British Columbia', 'MS in Computer Science & Engineering', '12.5 Lakhs', 'IELTS: 6.5\r\n\r\nTOEFL: 88\r\n\r\nPTE: 65', 'Public', 'No', 'Yes', 'https://www.unbc.ca/apply'),
+(13, 'USA', 'Richardson', 'The University of Texas at Dallas', 'MS in Computer Science & Engineering', '35 Lakhs', 'GRE: Accepted\r\n\r\nIELTS: 6.5\r\n\r\nTOEFL: 80\r\n\r\nPTE: 67', 'Public', 'Yes', 'Yes', 'https://www.utdallas.edu/enroll/apply-now/'),
+(14, 'Canada', 'Burnaby', 'Simon Fraser University', 'MS in Computer Science & Engineering', '17 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93', 'Public', 'No', 'Yes', 'https://www.sfu.ca/students/admission/apply.html'),
+(15, 'USA', 'Old Westbury', 'New York Institute of Technology', 'MS in Computer Science & Engineering', '28 Lakhs', 'IELTS: 6\r\n\r\nTOEFL: 79\r\n\r\nPTE: 53', 'Private', 'No', 'Yes', 'https://www.nyit.edu/admissions/apply'),
 (16, 'Canada', 'Edmonton', 'University of Alberta', 'MSc in Electrical and Computer Engineering', '16 Lakhs', 'IELTS: 6.5\r\n\r\nTOEFL: 88\r\n\r\nPTE: 59', 'Public', 'Yes', 'Yes', 'https://www.ualberta.ca/graduate-studies/prospective-students/apply-for-admission'),
 (17, 'Canada', 'Toronto', 'University of Toronto', 'MSc in Electrical and Computer Engineering', '42 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 93', 'Public', 'Yes', 'Yes', 'https://future.utoronto.ca/apply'),
 (18, 'Canada', 'Vancouver', 'The University of British Columbia', 'MSc in Electrical and Computer Engineering', '22 Lakhs', 'IELTS: 7\r\n\r\nTOEFL: 100\r\n\r\nPTE: 65', 'Public', 'No', 'Yes', 'https://www.grad.ubc.ca/prospective-students/application-admission/apply-online'),
@@ -147,12 +147,6 @@ INSERT INTO `users` (`sl`, `firstname`, `lastname`, `email`, `password`) VALUES
 --
 
 --
--- Indexes for table `programs`
---
-ALTER TABLE `programs`
-  ADD PRIMARY KEY (`pid`);
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -161,12 +155,6 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
---
--- AUTO_INCREMENT for table `programs`
---
-ALTER TABLE `programs`
-  MODIFY `pid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- AUTO_INCREMENT for table `users`
