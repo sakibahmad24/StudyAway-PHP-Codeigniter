@@ -52,6 +52,16 @@
 
                 return $uk_uni;
             }
+
+            public function find_uni($name)
+            {
+                $q = $this->db
+                            ->From('programs')
+                            ->Where('university',$name)
+                            ->get();
+
+                return $q->result();       
+            }
         
         
 		

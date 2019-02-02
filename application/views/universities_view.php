@@ -4,39 +4,54 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
+
+                    <!-- Universities in USA -->
                     <div class="kilimanjaro_part">
                         <h5>Universities in USA</h5>
                         <?php foreach($usaUnivs as $usaUniv){ ?>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i><?php echo $usaUniv->university; ?></a></li>
+                            <li>
+                                <?= anchor("university/rece/{$usaUniv->university}",$usaUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                            </li>
                         <?php } ?>
-                            <!-- <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>university 2</a></li> -->
                         </ul>
                     </div>
+
+                    <!-- Universities in CANADA -->
                     <div class="kilimanjaro_part m-top-15">
                         <h5>Universities in Canada</h5>
                         <?php foreach($canadaUnivs as $canadaUniv){ ?>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i><?php echo $canadaUniv->university; ?></a></li>
+                            <li>
+                                <?= anchor("university/rece/{$canadaUniv->university}",$canadaUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                            </li>
                         <?php } ?>                            
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-12 col-md-6 col-lg-6">
+
+                    <!-- Universities in Australia -->
                     <div class="kilimanjaro_part">
                         <h5>Universities in Australia</h5>
                         <?php foreach($ausUnivs as $ausUniv){ ?>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i><?php echo $ausUniv->university; ?></a></li>
+                            <li>
+                                <?= anchor("university/rece/{$ausUniv->university}",$ausUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                            </li>
                         <?php } ?>                            
                         </ul>
                     </div>
 
+                    <!-- Universities in UK -->
                     <div class="kilimanjaro_part m-top-15">
                         <h5>Universities in UK</h5>
                         <?php foreach($ukUnivs as $ukUniv){ ?>
                         <ul class="kilimanjaro_links">
-                            <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i><?php echo $ukUniv->university; ?></a></li>
+                            <li>
+                                <?= anchor("university/rece/{$ukUniv->university}",$ukUniv->university,['class'=>'fa fa-angle-right']); /*using anchor method to edit*/?>
+                            </li>
                         <?php } ?>                            
                         </ul>
                     </div>
