@@ -1,29 +1,35 @@
 ###################
-What is CodeIgniter
+What is StudyAway
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+StudyAway is a smart online portal for the Bangladeshi students who are eager for strudying abroad completing their bachelor degrees. StudyAway is a platform where one can find all the necessary information about his desired programs, universities and countries.
 
 *******************
-Release Information
+Countries and Regions
 *******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Initially we focused for the universities in 4 regions.
+* USA
+* Canada
+* UK
+* Australia
+we have chosen these 4 countries to work with because most of the Bangladeshi students are keen to know details about universities of those countries
 
 **************************
-Changelog and New Features
+Proghramming Environments Used
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+1. PHP
+2. HTML
+3. CSS
+4. JS
+5. Database: MySQL
+
+**************************
+Frameworks Used
+**************************
+
+1. Codeigniter
+2. Bootstrap
 
 *******************
 Server Requirements
@@ -66,5 +72,5 @@ or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 Acknowledgement
 ***************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+The developer team would like to thank EllisLab for CodeIgniter framework, all the
+contributors to the of the projects.
