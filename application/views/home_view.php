@@ -17,7 +17,7 @@
 					<img src="http://via.placeholder.com/600x400/ccc/fff/grid_home_1.jpg" alt="">
 					<div class="short_info">
 						<h3><strong>Latest Updates</strong> on master's degrees</h3>
-						<div><span class="btn_1 rounded">Read more</span></div>
+						<!-- <div><span class="btn_1 rounded">Read more</span></div> -->
 					</div>
 				</a>
 			</li>
@@ -25,8 +25,8 @@
 				<a href="#0" class="img_container">
 					<img src="http://via.placeholder.com/600x400/ccc/fff/grid_home_1.jpg" alt="">
 					<div class="short_info">
-						<h3><strong>University</strong>all over the globe</h3>
-						<div><span class="btn_1 rounded">Read more</span></div>
+						<h3><strong>Universities</strong>from 4 regions</h3>
+						<!-- <div><span class="btn_1 rounded">Read more</span></div> -->
 					</div>
 				</a>
 			</li>
@@ -35,7 +35,7 @@
 					<img src="http://via.placeholder.com/600x400/ccc/fff/grid_home_1.jpg" alt="">
 					<div class="short_info">
 						<h3><strong>Admission</strong>Apply Online</h3>
-						<div><span class="btn_1 rounded">Submit</span></div>
+						<!-- <div><span class="btn_1 rounded">Submit</span></div> -->
 					</div>
 				</a>
 			</li>
@@ -52,22 +52,21 @@
 				<div class="item">
 					<div class="box_grid">
 						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html">
-								<div class="preview"><span>Preview guide</span></div><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_1.jpg" class="img-fluid" alt=""></a>
+							<!-- <a href="#0" class="wish_bt"></a> -->
+							<a href="http://localhost/study/Home/usaLivingCost">
+								<div class="preview"><!-- <span>Preview guide</span> --></div><img src="https://images.shiksha.ws/mediadata/images/articles/iStock_000003381885_Large1.jpg" class="img-fluid" alt=""></a>
 							
 
 						</figure>
 						<div class="wrapper">
-							<small>Program</small>
-							<h3>Deep knowledge about MS in CSE</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<small>Lifestyle</small>
+							<h3>Average Living Cost in USA</h3>
+							<p>Estimated living cost for the US is around $10000 to $12000 per year, which averages around $700 to $1000 per month.</p>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1d 3hrs</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">View Post</a></li>
+							<li><i class="icon_clock_alt"></i>5 mins read</li>
+							<!-- <li><i class="icon_like"></i> 890</li> -->
+							<li><a href="http://localhost/study/Home/usaLivingCost">View Post</a></li>
 						</ul>
 					</div>
 				</div>
@@ -75,26 +74,48 @@
 				<div class="item">
 					<div class="box_grid">
 						<figure>
-							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html">
-								<div class="preview"><span>Preview guide</span></div><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_1.jpg" class="img-fluid" alt=""></a>
+							<!-- <a href="#0" class="wish_bt"></a> -->
+							<a href="http://localhost/study/Home/ausPtJob">
+								<div class="preview"><span>Preview guide</span></div><img src="https://images.shiksha.ws/mediadata/images/articles/image6.jpg" class="img-fluid" alt=""></a>
 							
 
 						</figure>
 						<div class="wrapper">
-							<small>Exam</small>
-							<h3>IELTS 2018</h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
+							<small>Part-time Job</small>
+							<h3>Part-time Job opportunity in Australia.</h3>
+							<p>Read about the rules that apply to working while studying in Australia and the kind of jobs available for International students</p>
+							<!-- <div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div> -->
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1d 3hrs</li>
-							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">View Post</a></li>
+							<li><i class="icon_clock_alt"></i>7 mins read</li>
+							<!-- <li><i class="icon_like"></i> 890</li> -->
+							<li><a href="http://localhost/study/Home/ausPtJob">View Post</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /item -->
+				<div class="item">
+					<div class="box_grid">
+						<figure>
+							<!-- <a href="#0" class="wish_bt"></a> -->
+							<a href="http://localhost/study/Home/canadaPostStudy">
+								<div class="preview"><span>Preview guide</span></div><img src="https://images.shiksha.ws/mediadata/images/articles/iStock_000041110874_Double2.jpg" class="img-fluid" alt=""></a>
+							
+
+						</figure>
+						<div class="wrapper">
+							<small>After Study</small>
+							<h3>Post Study Job Facility in Canada</h3>
+							<p>Getting a post work permit in Canada (called PGWP) depends a lot on your course and its duration</p>
+							<!-- <div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div> -->
+						</div>
+						<ul>
+							<li><i class="icon_clock_alt"></i>7 mins read</li>
+							<!-- <li><i class="icon_like"></i> 890</li> -->
+							<li><a href="http://localhost/study/Home/canadaPostStudy">View Post</a></li>
+						</ul>
+					</div>
+				</div>
 				
 				<!-- /item -->
 				
@@ -107,7 +128,7 @@
 			</div>
 			<!-- /carousel -->
 			<div class="container">
-				<p class="btn_home_align"><a href="courses-grid.html" class="btn_1 rounded">View all guides</a></p>
+				<p class="btn_home_align"><a href="http://localhost/study/Home/countries" class="btn_1 rounded">View all guides</a></p>
 			</div>
 			<!-- /container -->
 			<hr>
@@ -118,17 +139,16 @@
 			<div class="main_title_2">
 				<span><em></em></span>
 				<h2>Study Away Categorized Programs</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				<p>The featured masters program at Study Away</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6 wow" data-wow-offset="150">
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_1.jpg" class="img-fluid" alt="">
+							<img src="http://localhost/study/images/cse.jpg" class="img-fluid" alt="">
 							<div class="info">
-								<small><i class="ti-layers"></i>15 Universities</small>
-								<h3>Computer Science</h3>
+								<h3>Computer Science & Engineering</h3>
 							</div>
 						</figure>
 					</a>
@@ -138,10 +158,9 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_2.jpg" class="img-fluid" alt="">
+							<img src="http://localhost/study/images/ece.jpg" class="img-fluid" alt="">
 							<div class="info">
-								<small><i class="ti-layers"></i>23 Universities</small>
-								<h3>Engineering</h3>
+								<h3>Electrical & Computer Engineering</h3>
 							</div>
 						</figure>
 					</a>
@@ -151,10 +170,10 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_3.jpg" class="img-fluid" alt="">
+							<img src="http://localhost/study/images/journalism.jpg" class="img-fluid" alt="">
 							<div class="info">
-								<small><i class="ti-layers"></i>23 Universities</small>
-								<h3>Architecture</h3>
+								
+								<h3>Journalism</h3>
 							</div>
 						</figure>
 					</a>
@@ -164,10 +183,10 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_4.jpg" class="img-fluid" alt="">
+							<img src="http://localhost/study/images/accounting.jpg" class="img-fluid" alt="">
 							<div class="info">
-								<small><i class="ti-layers"></i>23 Universities</small>
-								<h3>Electrical Engineering</h3>
+								
+								<h3>Accounting</h3>
 							</div>
 						</figure>
 					</a>
@@ -177,10 +196,10 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_5.jpg" class="img-fluid" alt="">
+							<img src="http://localhost/study/images/mechanical.jpg" class="img-fluid" alt="">
 							<div class="info">
-								<small><i class="ti-layers"></i>23 Universities</small>
-								<h3>Law and Criminology</h3>
+								
+								<h3>Mechanical Engineering</h3>
 							</div>
 						</figure>
 					</a>
@@ -190,10 +209,10 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_6.jpg" class="img-fluid" alt="">
+							<img src="http://localhost/study/images/civil.png" class="img-fluid" alt="">
 							<div class="info">
-								<small><i class="ti-layers"></i>23 Programmes</small>
-								<h3>Biomedical Sciences</h3>
+								
+								<h3>Civil Engineering</h3>
 							</div>
 						</figure>
 					</a>
@@ -204,8 +223,7 @@
 		</div>
 		<!-- /container -->
 
-		<div class="bg_color_1">
-			<div class="container margin_120_95">
+			<!-- <div class="container margin_120_95">
 				<div class="main_title_2">
 					<span><em></em></span>
 					<h2>News and Events</h2>
@@ -225,55 +243,9 @@
 							<p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse ullum vidisse....</p>
 						</a>
 					</div>
-					<!-- /box_news -->
-					<div class="col-lg-6">
-						<a class="box_news" href="#0">
-							<figure><img src="http://via.placeholder.com/500x333/ccc/fff/news_home_2.jpg" alt="">
-								<figcaption><strong>28</strong>Dec</figcaption>
-							</figure>
-							<ul>
-								<li>Kazi Sakib Ahmad</li>
-								<li>20.11.2017</li>
-							</ul>
-							<h4>VISA Assistance seminar for USA</h4>
-							<p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse ullum vidisse....</p>
-						</a>
-					</div>
-					<!-- /box_news -->
-					<div class="col-lg-6">
-						<a class="box_news" href="#0">
-							<figure><img src="http://via.placeholder.com/500x333/ccc/fff/news_home_3.jpg" alt="">
-								<figcaption><strong>28</strong>Dec</figcaption>
-							</figure>
-							<ul>
-								<li>Syed Sadman</li>
-								<li>20.11.2017</li>
-							</ul>
-							<h4>Seminar on qualifying factors for higher study abroad</h4>
-							<p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse ullum vidisse....</p>
-						</a>
-					</div>
-					<!-- /box_news -->
-					<div class="col-lg-6">
-						<a class="box_news" href="#0">
-							<figure><img src="http://via.placeholder.com/500x333/ccc/fff/news_home_4.jpg" alt="">
-								<figcaption><strong>28</strong>Dec</figcaption>
-							</figure>
-							<ul>
-								<li>Sadik Khan</li>
-								<li>20.11.2017</li>
-							</ul>
-							<h4>Workshop on recommendation letter writting</h4>
-							<p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse ullum vidisse....</p>
-						</a>
-					</div>
-					<!-- /box_news -->
-				</div>
-				<!-- /row -->
-				<p class="btn_home_align"><a href="blog.html" class="btn_1 rounded">View all news</a></p>
-			</div>
-			<!-- /container -->
-		</div>
+					
+			
+		</div> -->
 		<!-- /bg_color_1 -->
 
 		<div class="call_section">
@@ -283,8 +255,9 @@
 						<div class="block-vertical"></div>
 						<div class="box_1">
 							<h3>Enjoy a great assistance on choosing higher study abroad</h3>
-							<p>Ius cu tamquam persequeris, eu veniam apeirian platonem qui, id aliquip voluptatibus pri. Ei mea primis ornatus disputationi. Menandri erroribus cu per, duo solet congue ut. </p>
-							<a href="#0" class="btn_1 rounded">Read more</a>
+
+							<p>StudyAway is a smart online portal for the Bangladeshi students who are eager for strudying abroad completing their bachelor degrees. StudyAway is a platform where one can find all the necessary information about his desired programs, universities and countries.</p>
+							<!-- <a href="#0" class="btn_1 rounded">Read more</a> -->
 						</div>
 					</div>
 				</div>

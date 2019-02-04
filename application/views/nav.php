@@ -22,8 +22,8 @@
 				<li><span><a href="<?php echo site_url("Home/countries") ?>">Countries</a></span></li>
                 <li><span><a href="<?php echo site_url('Home/universities')?>">Universities</a></span></li>
                 <li><span><a href="<?php echo site_url('Home/programs')?>">Programs</a></span></li>
-				<li><span><a href="#">Guide</a></span>
-				</li>
+				<!-- <li><span><a href="#">Guide</a></span>
+				</li> -->
 				<li><span><a href="#">VISA</a></span></li>
 			</ul>
 		</nav>
