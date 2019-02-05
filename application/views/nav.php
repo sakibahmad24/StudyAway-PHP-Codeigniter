@@ -1,11 +1,11 @@
 <header class="header menu_2">
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
 		<div id="logo">
-			<a href="index.html"><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></a>
+			<a href="<?php echo site_url(); ?>"><img src="<?php echo site_url('img/logo.png'); ?>" width="149" height="42" data-retina="true" alt=""></a>
 		</div>
 		<ul id="top_menu">
-			<li><a href="login.html" class="login">Login</a></li>
-			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
+			<!-- <li><a href="login.html" class="login">Login</a></li>
+			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li> -->
 			<li class="hidden_tablet"><a href="<?php echo site_url("Home/signup") ?>" class="btn_1 rounded">Sign Up!</a></li>
 		</ul>
 		<!-- /top_menu -->

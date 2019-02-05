@@ -2,7 +2,7 @@
 		<div class="container margin_120_95">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
-					<p><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></p>
+					<p><img src="<?php echo site_url('img/logo.png') ?>" width="149" height="42" data-retina="true" alt=""></p>
 					<p>StudyAway is a smart online portal for the Bangladeshi students who are eager for strudying abroad completing their bachelor degrees</p>
 					<div class="follow_us">
 						<ul>
